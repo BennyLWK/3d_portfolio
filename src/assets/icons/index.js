@@ -43,6 +43,7 @@ import ecommerce from "./ecommerce_cart.svg";
 import todo from "./todo.svg";
 import dashboard from "./dashboard.svg";
 import machine from "./machine.svg";
+import train from "./train.svg";
 
 export {
   css,
@@ -88,4 +89,5 @@ export {
   todo,
   dashboard,
   machine,
+  train,
 };

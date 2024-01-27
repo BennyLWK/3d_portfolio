@@ -1,4 +1,4 @@
-import { briefcase } from "../assets/images";
+import { briefcase, emerico, myreka, snsoft } from "../assets/images";
 import {
   contact,
   css,
@@ -31,6 +31,7 @@ import {
   todo,
   dashboard,
   machine,
+  train,
 } from "../assets/icons";
 
 export const skills = [
@@ -188,20 +189,19 @@ export const experiences = [
   {
     title: "Mobile Apps Developer",
     company_name: "SNSoft",
-    icon: briefcase,
+    icon: snsoft,
     iconBg: "#fbc3bc",
     date: "Nov 2018 - Apr 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining mobile applications using React Native and Android.",
+      "Implementing responsive design and ensuring cross-platform compatibility.",
+      "Provide support and improments for bugs and known issue repoorted by users.",
     ],
   },
   {
     title: "Senior Software Developer",
     company_name: "Emerico",
-    icon: briefcase,
+    icon: emerico,
     iconBg: "#b7e4c7",
     date: "Jul 2013 - Oct 2018",
     points: [
@@ -226,7 +226,7 @@ export const experiences = [
   {
     title: "System Engineer",
     company_name: "Myreka Technologies",
-    icon: briefcase,
+    icon: myreka,
     iconBg: "#E7EBDA",
     date: "Jul 2010 - Feb 2012",
     points: [
@@ -267,6 +267,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: train,
+    theme: "btn-back-yellow",
+    name: "Simple Train Ticket Booking Application",
+    description:
+      "Developed a simple mobile application for train ticket booking with react native.",
+    link: "https://github.com/BennyLWK/TrainTicketBookingApp",
+  },
   {
     iconUrl: ecommerce,
     theme: "btn-back-red",
