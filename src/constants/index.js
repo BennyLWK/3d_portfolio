@@ -27,11 +27,13 @@ import {
   xcode,
   vscode,
   postman,
+  jira,
   ecommerce,
   todo,
   dashboard,
   machine,
   train,
+  typescript,
 } from "../assets/icons";
 
 export const skills = [
@@ -117,11 +119,11 @@ export const skills = [
     name: "Node.js",
     type: "Backend",
   },
-  // {
-  //   imageUrl: typescript,
-  //   name: "TypeScript",
-  //   type: "Frontend",
-  // },
+  {
+    imageUrl: typescript,
+    name: "TypeScript",
+    type: "Frontend",
+  },
 ];
 
 export const tools = [
@@ -148,6 +150,11 @@ export const tools = [
   {
     imageUrl: trello,
     name: "Trello",
+    type: "Management Tool",
+  },
+  {
+    imageUrl: jira,
+    name: "Jira",
     type: "Management Tool",
   },
   {
@@ -178,7 +185,7 @@ export const experiences = [
     company_name: "Codetron",
     icon: briefcase,
     iconBg: "#accbe1",
-    date: "May 2019 - Present",
+    date: "May 2019 - Aug 2024",
     points: [
       "Developing and maintaining mobile applications using React Native and other related technologies.",
       "Collaborating with cross-functional teams including designers, project managers, and other developers to create high-quality products.",
