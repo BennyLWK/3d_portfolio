@@ -1,4 +1,4 @@
-import { briefcase, emerico, myreka, snsoft } from "../assets/images";
+import { briefcase, emerico, myreka, snsoft, ugroup } from "../assets/images";
 import {
   contact,
   css,
@@ -180,6 +180,24 @@ export const tools = [
 ];
 
 export const experiences = [
+  {
+    title: "Senior Frontend Engineer",
+    company_name: "U Group",
+    icon: ugroup,
+    iconBg: "#FFF",
+    date: "Nov 2024 - Current",
+    points: [
+      "Implemented and enforced best practices for testing and quality assurance to deliver robust, reliable applications.",
+      "Designed and implemented new backend services to support additional functionality",
+      "Managed workloads and priorities in Jira, ensuring accurate estimations and on-time delivery",
+      "Collaborated with stakeholders to identify opportunities to improve product capabilities and user experience",
+      "Led and actively contributed to the design and development of consumer-facing mobile applications, providing technical guidance to the team.",
+      "Maintained and migrated legacy systems to modern architectures.",
+      "Worked closely with cross-functional teams to support timely and accurate data delivery to clients",
+      "Developed and maintained technical documentation, coding best practices, and training materials",
+      "Conducted code reviews to ensure high code quality and adherence to standards.",
+    ],
+  },
   {
     title: "Senior Mobile Developer",
     company_name: "Codetron",
