@@ -34,6 +34,7 @@ import {
   machine,
   train,
   typescript,
+  python,
 } from "../assets/icons";
 
 export const skills = [
@@ -124,6 +125,11 @@ export const skills = [
     name: "TypeScript",
     type: "Frontend",
   },
+  {
+    imageUrl: python,
+    name: "Python",
+    type: "Backend",
+  },
 ];
 
 export const tools = [
@@ -185,7 +191,7 @@ export const experiences = [
     company_name: "U Group",
     icon: ugroup,
     iconBg: "#FFF",
-    date: "Nov 2024 - Current",
+    date: "Nov 2024 - Mar 2026",
     points: [
       "Implemented and enforced best practices for testing and quality assurance to deliver robust, reliable applications.",
       "Designed and implemented new backend services to support additional functionality",

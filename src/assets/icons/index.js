@@ -38,6 +38,7 @@ import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 import jira from "./jira.svg";
+import python from "./python.svg";
 
 // Icons from <a href="http://www.onlinewebfonts.com">Web Fonts</a>
 import ecommerce from "./ecommerce_cart.svg";
@@ -92,4 +93,5 @@ export {
   machine,
   train,
   jira,
+  python,
 };
